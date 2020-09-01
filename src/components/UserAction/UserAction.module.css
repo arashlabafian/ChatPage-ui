@@ -1,0 +1,17 @@
+.row {
+  width: 100%;
+}
+
+.title {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #007aff;
+  padding: 0.3rem;
+}
+.title:hover {
+  cursor: pointer;
+}
+
+.danger {
+  color: red;
+}

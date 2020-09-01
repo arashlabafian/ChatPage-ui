@@ -1,0 +1,27 @@
+.contact {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 3rem;
+}
+
+.ion {
+  font-size: 1.5rem;
+  color: white;
+  background-color: #007aff;
+  border-radius: 50%;
+  padding: 0.8rem;
+}
+
+.iconBox {
+  position: relative;
+}
+
+.title {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  text-align: center;
+  display: block;
+  width: 100%;
+}

@@ -1,0 +1,41 @@
+.profile {
+  /* height: 100vh; */
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+}
+.avatar {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-top: 1rem;
+}
+
+.name {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.actions {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.ion {
+  font-size: 2rem;
+}
+.edit {
+  color: #007aff;
+}
+.edit:hover,
+.action:hover {
+  cursor: pointer;
+}
