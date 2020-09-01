@@ -3,9 +3,9 @@ import { NavLink } from 'react-router-dom';
 
 import Image from '../../assets/images/86.jpg';
 import classes from './Profile.module.css';
-import ContactRow from '../../components/ContactRow';
+import ContactRow from '../ContactRow';
 import UserInfo from '../UserInfo';
-import UserAction from '../../UserAction';
+import UserAction from '../UserAction';
 import Toolbar from '../Toolbar';
 
 export default function Profile({ name }) {
