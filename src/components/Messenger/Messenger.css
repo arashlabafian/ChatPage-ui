@@ -1,8 +1,10 @@
 .messenger {
   display: grid;
-  width: 30rem;
+  width: 100%;
+  max-width: 30rem;
   height: 100vh;
   background: #eeeef1;
+  background-color: red;
   margin: auto;
   grid-template-columns: 100% auto;
 }

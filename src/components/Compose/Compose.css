@@ -14,7 +14,8 @@
     border: none;
     background-color: rgba(228, 225, 225, 0.8);
     backdrop-filter: blur(20px);
-    width: 30rem;
+    width: 100%;
+    max-width: 30rem;
   }
 }
 
@@ -24,7 +25,8 @@
   font-size: 14px;
   height: 40px;
   background-color: transparent;
-  width: 30rem;
+  width: 100%;
+  max-width: 30rem;
 }
 
 .compose-input::placeholder {

@@ -91,6 +91,14 @@ export default function MessageList(props) {
     ];
 
     setMessages(prevstate => [...prevstate, ...tempMessages]);
+    let list = document.getElementsByClassName('scrollable')[0];
+
+    setTimeout(() => {
+      list.scrollBy({
+        top: 10000,
+        behavior: 'smooth',
+      });
+    }, 0);
   }, []);
 
   const renderMessages = () => {
